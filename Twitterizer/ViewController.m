@@ -21,12 +21,21 @@
 }
 
 -(void)textViewDidChange:(UITextView *)textView {
+    //creating a character counter
     NSUInteger length;
     length = [textView.text length];
     self.count.text = [NSString stringWithFormat:@"Count: %lu", length];
+    
+    //limit count to 140 characters
+    NSInteger maxChar = 139;
+    if (textView.text.length > maxChar) {
+        textView.editable = NO;
+    }
 }
 
+
 - (IBAction)onTwitterizeTapped:(UIButton *)sender {
+    //Attempt at removing vowels
     NSString *userInput = self.textView.text;
     NSMutableString *noVowelsString = [NSMutableString new];
     NSCharacterSet *vowels = [NSCharacterSet characterSetWithCharactersInString:@"aeiou"];
@@ -34,7 +43,6 @@
     for (int i = 0; i < userInput.length; i++) {
         if (![vowels characterIsMember:[userInput characterAtIndex:i]]) {
             [noVowelsString appendFormat:@"%c", [userInput characterAtIndex:i]];
-            
             return;
         }
     }
