@@ -8,8 +8,9 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController ()<UITextViewDelegate>
 @property (weak, nonatomic) IBOutlet UITextView *textView;
+@property (weak, nonatomic) IBOutlet UILabel *count;
 
 @end
 
@@ -17,13 +18,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)textViewDidChange:(UITextView *)textView {
+    NSUInteger length;
+    length = [textView.text length];
+    self.count.text = [NSString stringWithFormat:@"Count: %lu", length];
 }
+
 - (IBAction)onTwitterizeTapped:(UIButton *)sender {
     NSString *userInput = self.textView.text;
     NSMutableString *noVowelsString = [NSMutableString new];
@@ -37,7 +39,6 @@
         }
     }
     self.textView.text = [NSString stringWithFormat:@"%@", noVowelsString];
-    
 }
 
 @end
