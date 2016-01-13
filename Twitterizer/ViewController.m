@@ -51,6 +51,11 @@
 
 - (IBAction)onHashtagTapped:(UIButton *)sender {
     //adding hashtag to first word, then every other word
+    NSString *text = self.textView.text;
+    NSMutableString *hashString = [NSMutableString new];
+    
+    NSArray *substrings = [text componentsSeparatedByString:@" "];
+    
 }
 
 @end
