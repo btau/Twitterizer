@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		698073451C46E05F00B56FDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 698073441C46E05F00B56FDA /* main.m */; };
+		698073481C46E05F00B56FDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 698073471C46E05F00B56FDA /* AppDelegate.m */; };
+		6980734B1C46E05F00B56FDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6980734A1C46E05F00B56FDA /* ViewController.m */; };
+		6980734E1C46E05F00B56FDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6980734C1C46E05F00B56FDA /* Main.storyboard */; };
+		698073501C46E05F00B56FDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6980734F1C46E05F00B56FDA /* Assets.xcassets */; };
+		698073531C46E05F00B56FDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 698073511C46E05F00B56FDA /* LaunchScreen.storyboard */; };
+		6980735E1C46E05F00B56FDA /* TwitterizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6980735D1C46E05F00B56FDA /* TwitterizerTests.m */; };
+		698073691C46E05F00B56FDA /* TwitterizerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 698073681C46E05F00B56FDA /* TwitterizerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6980735A1C46E05F00B56FDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 698073381C46E05F00B56FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6980733F1C46E05F00B56FDA;
+			remoteInfo = Twitterizer;
+		};
+		698073651C46E05F00B56FDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 698073381C46E05F00B56FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6980733F1C46E05F00B56FDA;
+			remoteInfo = Twitterizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		698073401C46E05F00B56FDA /* Twitterizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitterizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		698073441C46E05F00B56FDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		698073461C46E05F00B56FDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		698073471C46E05F00B56FDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		698073491C46E05F00B56FDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6980734A1C46E05F00B56FDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6980734D1C46E05F00B56FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6980734F1C46E05F00B56FDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		698073521C46E05F00B56FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		698073541C46E05F00B56FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		698073591C46E05F00B56FDA /* TwitterizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6980735D1C46E05F00B56FDA /* TwitterizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwitterizerTests.m; sourceTree = "<group>"; };
+		6980735F1C46E05F00B56FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		698073641C46E05F00B56FDA /* TwitterizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		698073681C46E05F00B56FDA /* TwitterizerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwitterizerUITests.m; sourceTree = "<group>"; };
+		6980736A1C46E05F00B56FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6980733D1C46E05F00B56FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		698073561C46E05F00B56FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		698073611C46E05F00B56FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		698073371C46E05F00B56FDA = {
+			isa = PBXGroup;
+			children = (
+				698073421C46E05F00B56FDA /* Twitterizer */,
+				6980735C1C46E05F00B56FDA /* TwitterizerTests */,
+				698073671C46E05F00B56FDA /* TwitterizerUITests */,
+				698073411C46E05F00B56FDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		698073411C46E05F00B56FDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				698073401C46E05F00B56FDA /* Twitterizer.app */,
+				698073591C46E05F00B56FDA /* TwitterizerTests.xctest */,
+				698073641C46E05F00B56FDA /* TwitterizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		698073421C46E05F00B56FDA /* Twitterizer */ = {
+			isa = PBXGroup;
+			children = (
+				698073461C46E05F00B56FDA /* AppDelegate.h */,
+				698073471C46E05F00B56FDA /* AppDelegate.m */,
+				698073491C46E05F00B56FDA /* ViewController.h */,
+				6980734A1C46E05F00B56FDA /* ViewController.m */,
+				6980734C1C46E05F00B56FDA /* Main.storyboard */,
+				6980734F1C46E05F00B56FDA /* Assets.xcassets */,
+				698073511C46E05F00B56FDA /* LaunchScreen.storyboard */,
+				698073541C46E05F00B56FDA /* Info.plist */,
+				698073431C46E05F00B56FDA /* Supporting Files */,
+			);
+			path = Twitterizer;
+			sourceTree = "<group>";
+		};
+		698073431C46E05F00B56FDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				698073441C46E05F00B56FDA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6980735C1C46E05F00B56FDA /* TwitterizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6980735D1C46E05F00B56FDA /* TwitterizerTests.m */,
+				6980735F1C46E05F00B56FDA /* Info.plist */,
+			);
+			path = TwitterizerTests;
+			sourceTree = "<group>";
+		};
+		698073671C46E05F00B56FDA /* TwitterizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				698073681C46E05F00B56FDA /* TwitterizerUITests.m */,
+				6980736A1C46E05F00B56FDA /* Info.plist */,
+			);
+			path = TwitterizerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6980733F1C46E05F00B56FDA /* Twitterizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6980736D1C46E05F00B56FDA /* Build configuration list for PBXNativeTarget "Twitterizer" */;
+			buildPhases = (
+				6980733C1C46E05F00B56FDA /* Sources */,
+				6980733D1C46E05F00B56FDA /* Frameworks */,
+				6980733E1C46E05F00B56FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Twitterizer;
+			productName = Twitterizer;
+			productReference = 698073401C46E05F00B56FDA /* Twitterizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		698073581C46E05F00B56FDA /* TwitterizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 698073701C46E05F00B56FDA /* Build configuration list for PBXNativeTarget "TwitterizerTests" */;
+			buildPhases = (
+				698073551C46E05F00B56FDA /* Sources */,
+				698073561C46E05F00B56FDA /* Frameworks */,
+				698073571C46E05F00B56FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6980735B1C46E05F00B56FDA /* PBXTargetDependency */,
+			);
+			name = TwitterizerTests;
+			productName = TwitterizerTests;
+			productReference = 698073591C46E05F00B56FDA /* TwitterizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		698073631C46E05F00B56FDA /* TwitterizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 698073731C46E05F00B56FDA /* Build configuration list for PBXNativeTarget "TwitterizerUITests" */;
+			buildPhases = (
+				698073601C46E05F00B56FDA /* Sources */,
+				698073611C46E05F00B56FDA /* Frameworks */,
+				698073621C46E05F00B56FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				698073661C46E05F00B56FDA /* PBXTargetDependency */,
+			);
+			name = TwitterizerUITests;
+			productName = TwitterizerUITests;
+			productReference = 698073641C46E05F00B56FDA /* TwitterizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		698073381C46E05F00B56FDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Brett Tau";
+				TargetAttributes = {
+					6980733F1C46E05F00B56FDA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					698073581C46E05F00B56FDA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6980733F1C46E05F00B56FDA;
+					};
+					698073631C46E05F00B56FDA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6980733F1C46E05F00B56FDA;
+					};
+				};
+			};
+			buildConfigurationList = 6980733B1C46E05F00B56FDA /* Build configuration list for PBXProject "Twitterizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 698073371C46E05F00B56FDA;
+			productRefGroup = 698073411C46E05F00B56FDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6980733F1C46E05F00B56FDA /* Twitterizer */,
+				698073581C46E05F00B56FDA /* TwitterizerTests */,
+				698073631C46E05F00B56FDA /* TwitterizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6980733E1C46E05F00B56FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				698073531C46E05F00B56FDA /* LaunchScreen.storyboard in Resources */,
+				698073501C46E05F00B56FDA /* Assets.xcassets in Resources */,
+				6980734E1C46E05F00B56FDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		698073571C46E05F00B56FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		698073621C46E05F00B56FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6980733C1C46E05F00B56FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6980734B1C46E05F00B56FDA /* ViewController.m in Sources */,
+				698073481C46E05F00B56FDA /* AppDelegate.m in Sources */,
+				698073451C46E05F00B56FDA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		698073551C46E05F00B56FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6980735E1C46E05F00B56FDA /* TwitterizerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		698073601C46E05F00B56FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				698073691C46E05F00B56FDA /* TwitterizerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6980735B1C46E05F00B56FDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6980733F1C46E05F00B56FDA /* Twitterizer */;
+			targetProxy = 6980735A1C46E05F00B56FDA /* PBXContainerItemProxy */;
+		};
+		698073661C46E05F00B56FDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6980733F1C46E05F00B56FDA /* Twitterizer */;
+			targetProxy = 698073651C46E05F00B56FDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6980734C1C46E05F00B56FDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6980734D1C46E05F00B56FDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		698073511C46E05F00B56FDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				698073521C46E05F00B56FDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6980736B1C46E05F00B56FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6980736C1C46E05F00B56FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6980736E1C46E05F00B56FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Twitterizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BTau.Twitterizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6980736F1C46E05F00B56FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Twitterizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BTau.Twitterizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		698073711C46E05F00B56FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TwitterizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BTau.TwitterizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twitterizer.app/Twitterizer";
+			};
+			name = Debug;
+		};
+		698073721C46E05F00B56FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TwitterizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BTau.TwitterizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twitterizer.app/Twitterizer";
+			};
+			name = Release;
+		};
+		698073741C46E05F00B56FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TwitterizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BTau.TwitterizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Twitterizer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		698073751C46E05F00B56FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TwitterizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BTau.TwitterizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Twitterizer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6980733B1C46E05F00B56FDA /* Build configuration list for PBXProject "Twitterizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6980736B1C46E05F00B56FDA /* Debug */,
+				6980736C1C46E05F00B56FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6980736D1C46E05F00B56FDA /* Build configuration list for PBXNativeTarget "Twitterizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6980736E1C46E05F00B56FDA /* Debug */,
+				6980736F1C46E05F00B56FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		698073701C46E05F00B56FDA /* Build configuration list for PBXNativeTarget "TwitterizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				698073711C46E05F00B56FDA /* Debug */,
+				698073721C46E05F00B56FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		698073731C46E05F00B56FDA /* Build configuration list for PBXNativeTarget "TwitterizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				698073741C46E05F00B56FDA /* Debug */,
+				698073751C46E05F00B56FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 698073381C46E05F00B56FDA /* Project object */;
+}
