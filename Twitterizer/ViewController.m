@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextView *textView;
 
 @end
 
@@ -22,6 +23,18 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)onTwitterizeTapped:(UIButton *)sender {
+    NSString *userInput = self.textView.text;
+    NSMutableString *noVowelsString = [NSMutableString new];
+    
+    for (int i = 0; i < userInput.length; i++) {
+        if ([userInput characterAtIndex:i] != [NSString stringWithFormat:@"a"]) {
+//            NSString *character = [NSString stringWithFormat:@"%c", [userInput characterAtIndex:i]];
+        }
+        
+    }
+    
 }
 
 @end
