@@ -20,6 +20,7 @@
     [super viewDidLoad];
 }
 
+
 -(void)textViewDidChange:(UITextView *)textView {
     //creating a character counter
     NSUInteger length;
@@ -43,11 +44,13 @@
     for (int i = 0; i < userInput.length; i++) {
         if (![vowels characterIsMember:[userInput characterAtIndex:i]]) {
             [noVowelsString appendFormat:@"%c", [userInput characterAtIndex:i]];
-            return;
         }
     }
     self.textView.text = [NSString stringWithFormat:@"%@", noVowelsString];
 }
 
+- (IBAction)onHashtagTapped:(UIButton *)sender {
+    //adding hashtag to first word, then every other word
+}
 
 @end
