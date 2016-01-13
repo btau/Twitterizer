@@ -27,13 +27,16 @@
 - (IBAction)onTwitterizeTapped:(UIButton *)sender {
     NSString *userInput = self.textView.text;
     NSMutableString *noVowelsString = [NSMutableString new];
+    NSCharacterSet *vowels = [NSCharacterSet characterSetWithCharactersInString:@"aeiou"];
     
     for (int i = 0; i < userInput.length; i++) {
-        if ([userInput characterAtIndex:i] != [NSString stringWithFormat:@"a"]) {
-//            NSString *character = [NSString stringWithFormat:@"%c", [userInput characterAtIndex:i]];
+        if (![vowels characterIsMember:[userInput characterAtIndex:i]]) {
+            [noVowelsString appendFormat:@"%c", [userInput characterAtIndex:i]];
+            
+            return;
         }
-        
     }
+    self.textView.text = [NSString stringWithFormat:@"%@", noVowelsString];
     
 }
 
